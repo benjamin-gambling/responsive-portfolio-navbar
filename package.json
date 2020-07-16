@@ -1,5 +1,5 @@
 {
-  "name": "mobile-responsive-portfolio-menu",
+  "name": "@benjamin-gambling/mobile-responsive-portfolio-menu",
   "version": "1.0.0",
   "description": "resposive porfolio menu with drop down capability at small screen widths",
   "main": "index.js",
@@ -16,5 +16,14 @@
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin-gambling/responsive-portfolio-navbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjamin-gambling/responsive-portfolio-navbar/issues"
+  },
+  "homepage": "https://github.com/benjamin-gambling/responsive-portfolio-navbar#readme"
 }

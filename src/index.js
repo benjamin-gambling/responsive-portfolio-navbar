@@ -1,6 +1,8 @@
 import screenWidth from "./window-size.js";
 
-window.onload = screenWidth();
-window.addEventListener("resize", screenWidth);
+const navbar = (() => {
+  window.onload = screenWidth();
+  window.addEventListener("resize", screenWidth);
+})();
 
-console.log("hello");
+export { navbar };
