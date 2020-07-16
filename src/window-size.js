@@ -16,7 +16,7 @@ const toggleMenu = () => {
 };
 
 const hiddenClasses = () => {
-  screen.width < 875
+  window.innerWidth < 875
     ? hiddenItems.forEach((item) => item.classList.add("show"))
     : hiddenItems.forEach((item) => item.classList.remove("show"));
 };
@@ -34,6 +34,7 @@ const bigScreen = () => {
   hamburgerMenu.removeEventListener("click", toggleMenu);
 };
 
-const screenWidth = () => (screen.width < 875 ? smallScreen() : bigScreen());
+const screenWidth = () =>
+  window.innerWidth < 875 ? smallScreen() : bigScreen();
 
 export default screenWidth;

@@ -60,6 +60,7 @@ ul {
   margin-left: auto;
   display: none;
   visibility: hidden;
+  cursor: pointer;
 }
 
 .nav-top {
